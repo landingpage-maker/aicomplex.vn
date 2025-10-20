@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ArchMaster.ai - AI Architecture Design</title>
+  
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="ArchMaster.ai - Công nghệ AI tiên tiến cho thiết kế kiến trúc. Biến đổi ánh sáng, thời tiết và render kiến trúc chỉ trong vài giây với AI." />
+  <meta name="keywords" content="AI architecture, thiết kế kiến trúc AI, AI rendering, kiến trúc thông minh, ArchMaster" />
+  <meta name="author" content="ArchMaster.ai" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph Meta Tags for Social Sharing -->
+  <meta property="og:title" content="ArchMaster.ai - AI Architecture Design" />
+  <meta property="og:description" content="Công nghệ AI tiên tiến cho thiết kế kiến trúc. Biến đổi ánh sáng, thời tiết và render kiến trúc chỉ trong vài giây." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://archmaster.ai" />
+  <meta property="og:image" content="https://archmaster.ai/logo.png" />
+  <meta property="og:site_name" content="ArchMaster.ai" />
+  <meta property="og:locale" content="vi_VN" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ArchMaster.ai - AI Architecture Design" />
+  <meta name="twitter:description" content="Công nghệ AI tiên tiến cho thiết kế kiến trúc. Biến đổi ánh sáng, thời tiết và render kiến trúc chỉ trong vài giây." />
+  <meta name="twitter:image" content="https://archmaster.ai/logo.png" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./imgs/hero/logo.png" />
+  <link rel="apple-touch-icon" href="./imgs/hero/logo.png" />
+  <!-- TailwindCSS via CDN (JIT) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              red: '#dc2626'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="antialiased text-white">
+  <div id="app"></div>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module">
+    import Hero from './components/hero.js';
+    import EffectDisplay from './components/effect-display.js';
+    import Intro from './components/intro.js';
+    import AIInteriorDecoration from './components/ai-interior-decoration.js';
+    import EffectDrawing from './components/effect-drawing.js';
+    import AIFunctions from './components/ai-functions.js';
+    import ProductData from './components/product-data.js';
+    import QA from './components/qa.js';
+    import Footer from './components/footer.js';
+    import BackTop from './components/back-top.js';
+    import ThreeDModel from './components/3d-model.js';
+    Hero('app');
+    EffectDisplay('app');
+    Intro('app');
+    AIInteriorDecoration('app');
+    EffectDrawing('app');
+    // ThreeDModel('app');
+    // AIFunctions('app');
+    // ProductData('app');
+    // QA('app');
+    Footer('app');
+    BackTop();
+  </script>
+
+</body>
+
+</html>
