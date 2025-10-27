@@ -1,8 +1,10 @@
-export default function Hero(targetId = 'app') {
+export default function Hero(targetId = "app") {
   const root = document.getElementById(targetId);
   if (!root) return;
 
-  root.insertAdjacentHTML('beforeend', `
+  root.insertAdjacentHTML(
+    "beforeend",
+    `
     <!-- Header -->
     <header class="bg-gray-800">
       <div class=" flex items-center justify-between">
@@ -28,7 +30,7 @@ export default function Hero(targetId = 'app') {
 
         <!-- Header Buttons -->
         <div class="hidden md:flex items-center space-x-2 mr-4">
-        
+
           <button class="bg-gray-700 text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-gray-600">
             <span class="text-red-500">♦</span>
             <span>Upgrade Vip</span>
@@ -48,7 +50,7 @@ export default function Hero(targetId = 'app') {
           <a href="#blog" class="text-white hover:text-red-500 py-2">Blog AI</a>
           <a href="#contact" class="text-white hover:text-red-500 py-2">Liên hệ</a>
           <div class="flex flex-col space-y-2 pt-2 border-t border-gray-600">
-   
+
             <button class="bg-gray-600 text-white px-4 py-2 rounded-lg flex items-center justify-center space-x-2">
               <span class="text-red-500">♦</span>
               <span>Upgrade Vip</span>
@@ -88,7 +90,9 @@ export default function Hero(targetId = 'app') {
                 Bấm để tạo ảnh
               </button>
               <button class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
+                <a href="https://upscale.aicomplex.vn/" target="_blank" rel="noopener noreferrer">
                 Ehance/ Upscale
+                </a>
               </button>
               <button onclick="window.open('https://www.youtube.com/@NguyenKhanh-mp6xg', '_blank')" class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
                 Hướng dẫn
@@ -115,36 +119,36 @@ export default function Hero(targetId = 'app') {
         </div>
       </div>
     </main>
-  `);
+  `
+  );
 
   // Add smooth scrolling for navigation links and mobile menu
   setTimeout(() => {
     const navLinks = document.querySelectorAll('nav a[href^="#"]');
-    navLinks.forEach(link => {
-      link.addEventListener('click', (e) => {
+    navLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
         e.preventDefault();
-        const targetId = link.getAttribute('href').substring(1);
+        const targetId = link.getAttribute("href").substring(1);
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+          targetElement.scrollIntoView({ behavior: "smooth" });
         }
         // Close mobile menu when clicking on a link
-        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenu = document.getElementById("mobileMenu");
         if (mobileMenu) {
-          mobileMenu.classList.add('hidden');
+          mobileMenu.classList.add("hidden");
         }
       });
     });
 
     // Mobile menu toggle
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const mobileMenu = document.getElementById('mobileMenu');
-    
+    const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
     if (mobileMenuBtn && mobileMenu) {
-      mobileMenuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
+      mobileMenuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
       });
     }
   }, 100);
 }
-
