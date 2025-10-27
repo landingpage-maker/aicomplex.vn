@@ -30,15 +30,6 @@ export default function Hero(targetId = "app") {
 
         <!-- Header Buttons -->
         <div class="hidden md:flex items-center space-x-2 mr-4">
-
-          <button class="bg-gray-700 text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-gray-600">
-            <span class="text-red-500">♦</span>
-            <span>
-              <a href="https://upscale.aicomplex.vn/" target="_blank" rel="noopener noreferrer">
-                Upgrade Vip
-                </a>
-            </span>
-          </button>
           <button class="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600">
             English
           </button>
@@ -54,15 +45,6 @@ export default function Hero(targetId = "app") {
           <a href="#blog" class="text-white hover:text-red-500 py-2">Blog AI</a>
           <a href="#contact" class="text-white hover:text-red-500 py-2">Liên hệ</a>
           <div class="flex flex-col space-y-2 pt-2 border-t border-gray-600">
-
-            <button class="bg-gray-600 text-white px-4 py-2 rounded-lg flex items-center justify-center space-x-2">
-              <span class="text-red-500">♦</span>
-            <span>
-              <a href="https://upscale.aicomplex.vn/" target="_blank" rel="noopener noreferrer">
-                Upgrade Vip
-                </a>
-            </span>
-            </button>
             <button class="bg-gray-600 text-white px-4 py-2 rounded-lg">
               English
             </button>
