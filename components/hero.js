@@ -76,12 +76,12 @@ export default function Hero(targetId = "app") {
 
             <!-- Buttons -->
             <div class="flex flex-col sm:flex-row gap-3 justify-center px-4">
-              <button onclick="window.open('https://ai.studio/apps/drive/1V5lYK_UjqFwDwYiND0HD6dUXDvbr5fvZ', '_blank')" class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
+              <button onclick="window.open('https://ai.studio/apps/drive/1SB0UKr4bn_X6vTzuXEEs5OhxGXBl30s6', '_blank')" class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
                 Bấm để tạo ảnh
               </button>
               <button class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
                 <a href="https://upscale.aicomplex.vn/" target="_blank" rel="noopener noreferrer">
-                Ehance/ Upscale
+                Interior/ upscale
                 </a>
               </button>
               <button onclick="window.open('https://www.youtube.com/@NguyenKhanh-mp6xg', '_blank')" class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
