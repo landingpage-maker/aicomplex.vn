@@ -76,7 +76,7 @@ export default function Hero(targetId = "app") {
 
             <!-- Buttons -->
             <div class="flex flex-col sm:flex-row gap-3 justify-center px-4">
-              <button onclick="window.open('https://ai.studio/apps/drive/1wZwveEq5ivN4I9yNJgOk5BBVFez2gbTe', '_blank')" class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
+              <button onclick="window.open('https://ai.studio/apps/drive/1E-0rTRHHZp1Djb-gfUhZFfI1gvTXVwi8', '_blank')" class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
                 Bấm để tạo ảnh
               </button>
               <button class="bg-red-600 text-white px-4 md:px-6 py-3 md:py-4 rounded-lg text-sm md:text-base font-semibold hover:bg-red-700 transition-colors">
